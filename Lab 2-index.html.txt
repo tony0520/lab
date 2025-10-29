@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>My Biodata</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact Me</a>
+  </nav>
+
+  <header>
+    <h1>My Biodata</h1>
+  </header>
+
+  <main>
+    <section>
+      <img src="https://resizing.flixster.com/f2PJ4RVBGSBzuFKTavgaiMIrl8Q=/206x305/v2/https://resizing.flixster.com/-XZAfHZM39UwaGJIFWKAE8fS0ak=/v3/t/assets/p446158_b_v13_ak.jpg" alt="Mr Bean" width="150">
+      <p><strong>Name:</strong> Mr Bean</p>
+      <p><strong>Student ID:</strong> 12345678</p>
+      <p><strong>Programme:</strong> Cognitive Science</p>
+      <p><strong>Birthday:</strong> 2000-04-10<p>
+      <p><strong>Origin:</strong> Perak, Malaysia</p>
+      <button>
+        <a href="contact.html">Contact me </a>
+      </button>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UNIMAS</p>
+  </footer>
+</body>
+</html>

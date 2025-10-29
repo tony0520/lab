@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Contact Me</title>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav>
+    <a href="index.html">Home</a> |
+    <a href="contact.html">Contact Me</a>
+  </nav>
+
+  <header>
+    <h1>Contact Me</h1>
+  </header>
+
+  <main>
+    <form action="#" method="GET">
+      <label for="name">Name:</label><br>
+      <input type="text" id="name" name="name" required><br><br>
+
+      <label for="phone">Phone:</label><br>
+      <input type="tel" id="phone" name="phone" required><br><br>
+
+      <label for="email">Email:</label><br>
+      <input type="email" id="email" name="email" required><br><br>
+
+      <button type="button" href="index.html'">Back</button>
+      <button type="submit">Submit</button>
+    </form>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 UNIMAS</p>
+  </footer>
+
+  <!-- Optional: Log form submission in console (for understanding only; no JS execution in pure HTML task) -->
+  <!-- In real use, form would need backend; here it just reloads with query params -->
+</body>
+</html>
